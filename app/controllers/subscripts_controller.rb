@@ -1,5 +1,7 @@
 class SubscriptsController < ApplicationController
-  def index; end
+  def index
+    @subscripts = Subscript.all
+  end
 
   def new
     @subscript = Subscript.new
