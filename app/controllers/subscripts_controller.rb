@@ -1,4 +1,6 @@
 class SubscriptsController < ApplicationController
+  def index; end
+
   def new
     @subscript = Subscript.new
   end
